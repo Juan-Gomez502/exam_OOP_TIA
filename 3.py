@@ -1,7 +1,3 @@
-#create two parent classes Hero and Villain, each with attributes name and private attribute power. 
-#add a method in each parent class to access the private attribute .
-#create at least one child class for each parent class that inherits from it. in each child class creat a method that uses the parent attributes.
-#use input() to allow the user to enter the name and power for the both characters and display their information on screen and call the child class method.  
 class Hero:
     def __init__(self, name, power):
         self.name = name
